@@ -24,4 +24,9 @@ public class CompraDTO {
 		this.endereco = endereco;
 	}
 
+	@Override
+	public String toString() {
+		return "CompraDTO [itens=" + itens + ", endereco=" + endereco + "]";
+	}
+
 }
